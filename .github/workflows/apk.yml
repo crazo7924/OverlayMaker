@@ -1,3 +1,8 @@
+name: APK builder
+
+on:
+  workflow_dispatch
+
 jobs:
   generate-apk:
     name: Generate apk
